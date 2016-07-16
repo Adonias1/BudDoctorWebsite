@@ -1,0 +1,25 @@
+$main-color: blue;
+
+body{
+	color: $main-color;
+		font-size: 2em;
+	p{
+		font-family: arial;
+		color:purple;
+		font-size: 2em;
+		font-weight: 900;
+	}
+	& .random{ //inherits from parent
+		font-weight: bold;
+		font-size: 5em;
+		font-family: cursive;
+		color: green;
+	}
+
+	section{
+		font-size: 5em;
+		font-weight: bold;
+		color: hotpink;
+	}
+}
+

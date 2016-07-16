@@ -1,0 +1,20 @@
+body {
+  color: blue;
+  font-size: 2em; }
+
+body p {
+  font-family: arial;
+  color: purple;
+  font-size: 2em;
+  font-weight: 900; }
+
+body .random {
+  font-weight: bold;
+  font-size: 5em;
+  font-family: cursive;
+  color: green; }
+
+body section {
+  font-size: 5em;
+  font-weight: bold;
+  color: hotpink; }
