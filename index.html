@@ -2,9 +2,11 @@
 <html lang="en">
 	<head>
 		<title>	Test Gulp and Sass</title>
-		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" type="text/css">
 		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- uses latest version of IE -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css"><!-- stylesheet loaded after bootstrap in case of override -->
 	</head>
 <body>
 <h1>Test Bootstrap:</h1>
@@ -23,5 +25,9 @@
 
 </div><!-- end container -->
 <script src="js/test.js"></script>
+
+<!-- js for bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!-- jquery -->
+<script src="bootstrap/dist/js/bootstrap.min.js"></script><!-- bootstrap js -->
 </body>
 </html>
